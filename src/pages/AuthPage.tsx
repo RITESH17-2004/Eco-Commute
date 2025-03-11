@@ -4,8 +4,9 @@ import {
   Container, Paper, Title, TextInput, PasswordInput, Button, Text, Group, Stack, Anchor, Divider, rem, Box 
 } from "@mantine/core";
 import { IconLeaf, IconAt, IconLock, IconUser } from "@tabler/icons-react";
-import { auth } from "../firebase";
+import { auth, db } from "../firebase";
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";
+import { doc, setDoc } from "firebase/firestore";
 
 export function AuthPage() {
   const [isSignUp, setIsSignUp] = useState(false);
@@ -29,21 +30,34 @@ export function AuthPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError(null);
-
+  
     try {
       if (isSignUp) {
-        // Create new user
-        await createUserWithEmailAndPassword(auth, email, password);
+        const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+        const user = userCredential.user;
+  
+        console.log("User created:", user.uid);
+        console.log("Firestore instance:", db);
+  
+        // Ensure Firestore is initialized and save user details
+        await setDoc(doc(db, "users", user.uid), {
+          name: name.trim(),
+          email: email.trim(),
+          createdAt: new Date().toISOString(), // Store date in ISO format
+        });
+  
+        console.log("User data saved in Firestore");
       } else {
-        // Sign in existing user
         await signInWithEmailAndPassword(auth, email, password);
       }
-      navigate("/"); // Redirect after successful login/signup
+  
+      navigate("/");
     } catch (err) {
+      console.error("Error:", err);
       setError((err as Error).message);
     }
   };
-
+  
   return (
     <Box 
       style={{
