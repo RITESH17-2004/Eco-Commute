@@ -4,6 +4,9 @@ import postcssPresetMantine from 'postcss-preset-mantine';
 import postcssSimpleVars from 'postcss-simple-vars';
 
 export default defineConfig({
+  build: {
+    outDir: 'build'
+  },
   plugins: [react()],
   css: {
     postcss: {
