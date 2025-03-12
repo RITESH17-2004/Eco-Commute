@@ -13,6 +13,7 @@
   "dependencies": {
     "@mantine/core": "^7.5.1",
     "@mantine/dates": "^7.5.1",
+    "@mantine/form": "^7.17.1",
     "@mantine/hooks": "^7.5.1",
     "@mui/material": "^6.4.7",
     "@mui/system": "^6.4.7",
@@ -20,15 +21,18 @@
     "@tabler/icons-react": "^2.47.0",
     "dayjs": "^1.11.10",
     "firebase": "^11.4.0",
+    "leaflet": "^1.9.4",
     "mapbox-gl": "^3.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
     "react-map-gl": "^7.1.7",
     "react-router-dom": "^6.22.0",
     "react-scripts": "^5.0.1",
     "zustand": "^4.5.0"
   },
   "devDependencies": {
+    "@types/leaflet": "^1.9.16",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
     "@typescript-eslint/eslint-plugin": "^6.21.0",

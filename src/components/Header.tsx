@@ -74,7 +74,10 @@ export function Header() {
     ...(isAuthenticated ? [
       { link: '/community', label: 'Community' },
       { link: '/pooling', label: 'Carpooling' },
-      { link: '/CalculatorPage', label: 'Carbon Calculator' }
+      { link: '/CalculatorPage', label: 'Carbon Calculator' },
+      { link: '/Profile Page', label: 'Profile Page' },
+      { link: '/Request Page', label: 'Request Page' },
+      { link: '/Send Request Page', label: 'Your Requests' },
     ] : []),
   ];
 
@@ -137,7 +140,7 @@ export function Header() {
         transition: 'transform 0.3s ease',
       }}
     >
-      <Container size="lg" h={HEADER_HEIGHT}>
+      <Container fluid h={HEADER_HEIGHT} px={{ base: "md", sm: "xl" }}>
         <Group justify="space-between" h="100%">
           <Group>
             <IconLeaf size={34} color="#40c057" style={{ marginRight: rem(4) }} />

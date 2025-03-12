@@ -7,6 +7,9 @@ import { CalculatorPage } from './pages/CalculatorPage';
 import { CommunityPage } from './pages/CommunityPage';
 import { PoolingPage } from './pages/PoolingPage';
 import { AuthPage } from './pages/AuthPage';
+import { ProfilePage } from './pages/ProfilePage';
+import { Requests } from './pages/Request';
+import { SentRequests } from './pages/SendRequest';
 import '@mantine/core/styles.css';
 import '@mantine/dates/styles.css';
 
@@ -33,6 +36,9 @@ function App() {
               <Route path="/community" element={<CommunityPage />} />
               <Route path="/pooling" element={<PoolingPage />} />
               <Route path="/Auth" element={<AuthPage />} />
+              <Route path="/Profile Page" element={<ProfilePage />}/>
+              <Route path="/Request Page" element={<Requests />}/>
+              <Route path="/Send Request Page" element={<SentRequests />}/>
             </Routes>
           </main>
           <Footer />
