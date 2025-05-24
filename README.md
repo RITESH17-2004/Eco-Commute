@@ -11,7 +11,6 @@
 - [⚙️ Key Features](#key-features)
 - [🌟 Additional Features](#-additional-features)
 - [🖥️ Architecture & Tech Stack](#-architecture--tech-stack)
-- [👥 About Us](#-about-us)
 
 ---
 
@@ -51,12 +50,14 @@ Note : This project requires a Gemini API key; please **create your own API key*
 ---
 
 ## 🖼️ Screenshots
+
 <pre>
 <img src = "https://github.com/arnavparekar/Dishcovery/blob/arnav/frontend/src/assets/home_page1.png">
 </pre>
 
 ---
 ## ⚙️ Key Features
+
 1. 🧮 **Carbon Calculator**
 - Allows users to input their mode of transport and trip details.
 - Calculates and displays carbon emissions.
@@ -89,6 +90,7 @@ Note : This project requires a Gemini API key; please **create your own API key*
 ---
 
 ## 🖥️ Architecture & Tech Stack
+
 1. **Frontend:**
    - React: Mantine UI Fraework
 2. **Database:**
