@@ -1,58 +1,109 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+<center>  
+  <img src="https://readme-typing-svg.herokuapp.com?font=Times+new+Roman&size=35&letterSpacing=2px&duration=3000&pause=1000&color=2E8B57&width=435&lines=Welcome+to+Ride2Green!"/>  
+</center>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
+- [💡 Problem Statement & Solution](#-problem-statement--solution)
+- [📽️ Visit Us](#-visit-us)
+- [🚀 Getting Started](#-getting-started)
+- [🧰 Resources](#-resources)
+- [🖼️ Screenshots](#-screenshots)
+- [⚙️ Key Features](#key-features)
+- [🌟 Additional Features](#-additional-features)
+- [🖥️ Architecture & Tech Stack](#-architecture--tech-stack)
+- [👥 About Us](#-about-us)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💡 Problem Statement & Solution
 
-## Expanding the ESLint configuration
+### Problem Statement
+With increasing concerns over climate change and rising carbon emissions, there's an urgent need for innovative solutions that promote sustainable transportation and community awareness. Most existing systems lack real-time, user-friendly features that help individuals calculate, compare, and reduce their carbon footprint effectively.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Solution
+Ride2Green is a smart web application designed to promote eco-friendly commuting. By integrating a carbon footprint calculator, real-time community interaction, and a carpooling solution, the platform encourages sustainable practices while fostering a green-minded community.
+Users can calculate their transportation emissions, share eco-friendly lifestyle tips, and coordinate carpools efficiently. Ride2Green simplifies green commuting while building a connected, environmentally conscious user base.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📽️ Visit Us
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 🔗 [Live App - Vercel](https://eco-commute-seven.vercel.app/)
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
-=======
-# Eco-Commute
->>>>>>> 7f4448955f6cf59ef718a72e1d06bb8f26bfafaa
+---
+
+## 🚀 Getting Started
+Before running the project, make sure you have the necessary files downloaded:
+1. **API keys**: Set up required API keys for Firebase and OpenStreetMap API key.
+2. **Firebase**: Ensure the Firebase project is set up and the necessary credentials are configured in your React app.
+
+Note : This project requires a Gemini API key; please **create your own API key** to use the project.
+
+---
+
+## 🧰 Resources
+
+- 🌿 [Mantine UI](https://mantine.dev/) - Modern React UI library for clean and responsive components.
+- 🔥 [Firebase Docs](https://firebase.google.com/docs) - Auth, Firestore DB, and Storage for backend.
+- 🗺️ [OpenStreetMap API](https://www.openstreetmap.org/) - For map rendering and route visualization.
+- 🚀 [Vercel](https://vercel.com/) - Hosting and deployment platform for the frontend.
+
+---
+
+## 🖼️ Screenshots
+<pre>
+<img src = "https://github.com/arnavparekar/Dishcovery/blob/arnav/frontend/src/assets/home_page1.png">
+</pre>
+
+---
+## ⚙️ Key Features
+1. 🧮 **Carbon Calculator**
+- Allows users to input their mode of transport and trip details.
+- Calculates and displays carbon emissions.
+- Provides eco-friendly alternatives.
+
+2. 👥 **Community**
+- Real-time content sharing using Firebase Firestore.
+- Users can post eco-living tips or updates.
+- Like and comment system for posts.
+- Fosters interaction and motivation within eco-conscious users.
+
+3. 🚘 **Car Pooling**
+- Users can create a journey specifying source, destination, time, date, and seats.
+- Matches are displayed if existing trips align.
+- If no match, a new trip is created.
+- Requests are shown on a dedicated Requests page with accepted/rejected status.
+- OpenStreetMap integration displays the route visually.
+- Compares carbon emissions between car, public transit, and carpooling.
+
+---
+
+## 🌟 Additional Features
+
+- ✅ Real-time UI updates with Firebase.
+- 🌐 Route calculation and emission comparison.
+- 🔐 Secure authentication via Firebase Auth.
+- 📱 Responsive UI using Mantine.
+- 📊 Clean and informative carbon footprint analytics.
+
+---
+
+## 🖥️ Architecture & Tech Stack
+1. **Frontend:**
+   - React: Mantine UI Fraework
+2. **Database:**
+   - Firebase Auth: Authentication
+   - Firebase Firestore: NoSQL Database
+   - Firebase Storage: Recipe image hosting
+3. Maps and Routing:
+   - OpenStreetMap API
+3. **Hosting and Deployment:**
+   - Vercel: Hosting and Deploying the frontend
+
+
+---
+
+## Happy coding 💯
+
+Made with love ❤️
+---
