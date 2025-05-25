@@ -109,7 +109,7 @@ export function CalculatorPage() {
               <Group justify="center" gap="xs">
                 <IconLeaf size={36} />
                 <Title order={1} ta="center">
-                  Eco-Commute
+                  Ride2Green
                 </Title>
               </Group>
               <Text ta="center" size="lg" mt="xs">
@@ -238,7 +238,7 @@ export function CalculatorPage() {
             
             <Box mt="xl">
               <Text size="sm" c="dimmed" ta="center">
-                Carbon Syn — Making sustainability measurable and actionable
+                Ride2Green — Making sustainability measurable and actionable
               </Text>
             </Box>
           </Paper>

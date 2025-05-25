@@ -75,9 +75,9 @@ export function Header() {
       { link: '/community', label: 'Community' },
       { link: '/pooling', label: 'Carpooling' },
       { link: '/CalculatorPage', label: 'Carbon Calculator' },
-      { link: '/Profile Page', label: 'Profile Page' },
-      { link: '/Request Page', label: 'Request Page' },
-      { link: '/Send Request Page', label: 'Your Requests' },
+      { link: '/Request Page', label: 'Incoming Requests' },
+      { link: '/Send Request Page', label: 'My Requests' },
+      { link: '/Profile Page', label: 'Profile' }
     ] : []),
   ];
 
@@ -156,7 +156,7 @@ export function Header() {
                 WebkitTextFillColor: 'transparent'
               }}
             >
-            Eco-Commute
+            Ride2Green
             </Text>
           </Group>
 

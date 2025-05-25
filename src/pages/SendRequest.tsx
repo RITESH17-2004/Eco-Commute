@@ -258,7 +258,7 @@ export function SentRequests() {
                 marginBottom: rem(12)
               }}
             >
-              Your Trip Requests
+              My Requests
             </Title>
             <Text c="dimmed" size="md" ta="center">
               Track the status of your trip requests in one place

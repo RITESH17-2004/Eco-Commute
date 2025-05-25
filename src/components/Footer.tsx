@@ -27,7 +27,7 @@ export function Footer() {
               gradient={{ from: 'teal', to: 'green' }}
               variant="gradient"
             >
-              Eco-Commute
+              Ride2Green
             </Text>
           </Group>
 
@@ -58,7 +58,7 @@ export function Footer() {
           </Text>
           
           <Text c="dimmed" size="sm">
-            © {new Date().getFullYear()} Carbon Sync. All rights reserved.
+            © {new Date().getFullYear()} Ride2Green. All rights reserved.
           </Text>
         </Group>
       </Container>

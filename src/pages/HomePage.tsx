@@ -175,7 +175,7 @@ export function HomePage() {
                 maxWidth: rem(700)
               }}
             >
-              Why Choose <Text component="span" variant="gradient" gradient={{ from: 'green', to: 'teal' }} inherit>Eco-Commute</Text>?
+              Why Choose <Text component="span" variant="gradient" gradient={{ from: 'green', to: 'teal' }} inherit>Ride2Green</Text>?
             </Title>
 
             <Card padding="xl" radius="lg" shadow="md" style={{ width: '80%' }}>
@@ -224,7 +224,7 @@ export function HomePage() {
               radius="md"
               mt={rem(20)}
             >
-              Join Eco-Commute Today
+              Join Ride2Green Today
             </Button>
           </Stack>
         </Box>

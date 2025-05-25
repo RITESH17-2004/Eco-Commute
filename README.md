@@ -3,14 +3,14 @@
 </center>
 
 ## Table of Contents
-- [💡 Problem Statement & Solution](#-problem-statement--solution)
-- [📽️ Visit Us](#-visit-us)
-- [🚀 Getting Started](#-getting-started)
-- [🧰 Resources](#-resources)
-- [🖼️ Screenshots](#-screenshots)
+- [💡 Problem Statement & Solution](#problem-statement--solution)
+- [📽️ Visit Us](#visit-us)
+- [🚀 Getting Started](#getting-started)
+- [🧰 Resources](#resources)
+- [🖼️ Screenshots](#screenshots)
 - [⚙️ Key Features](#key-features)
-- [🌟 Additional Features](#-additional-features)
-- [🖥️ Architecture & Tech Stack](#-architecture--tech-stack)
+- [🌟 Additional Features](#additional-features)
+- [🖥️ Architecture & Tech Stack](#architecture--tech-stack)
 
 ---
 
@@ -36,7 +36,7 @@ Before running the project, make sure you have the necessary files downloaded:
 1. **API keys**: Set up required API keys for Firebase and OpenStreetMap API key.
 2. **Firebase**: Ensure the Firebase project is set up and the necessary credentials are configured in your React app.
 
-Note : This project requires a Gemini API key; please **create your own API key** to use the project.
+Note : This project requires a Firebase API key; please **create your own API key** to use the project.
 
 ---
 
@@ -52,7 +52,14 @@ Note : This project requires a Gemini API key; please **create your own API key*
 ## 🖼️ Screenshots
 
 <pre>
-<img src = "https://github.com/arnavparekar/Dishcovery/blob/arnav/frontend/src/assets/home_page1.png">
+<img src = "src\assets\homepage.png">
+<img src = "src\assets\loginpage.png">
+<img src = "src\assets\communitypage.png">
+<img src = "src\assets\carpoolingpage.png">
+<img src = "src/assets/carboncalculatorpage.png">
+<img src = "src\assets\incomingrequeestspage.png">
+<img src = "src\assets\myrequestspage.png">
+<img src = "src\assets\profilepage.png">
 </pre>
 
 ---
@@ -97,11 +104,10 @@ Note : This project requires a Gemini API key; please **create your own API key*
    - Firebase Auth: Authentication
    - Firebase Firestore: NoSQL Database
    - Firebase Storage: Recipe image hosting
-3. Maps and Routing:
+3. **Maps and Routing:**
    - OpenStreetMap API
-3. **Hosting and Deployment:**
-   - Vercel: Hosting and Deploying the frontend
-
+4. **Hosting and Deployment:**
+   - Vercel: Hosting and Deploying the Frontend
 
 ---
 

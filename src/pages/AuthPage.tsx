@@ -90,7 +90,7 @@ export function AuthPage() {
               {isSignUp ? "Create Account" : "Welcome Back"}
             </Title>
             <Text size="sm" c="dimmed" mt={rem(5)}>
-              {isSignUp ? "Join Carbon Sync today" : "Sign in to Carbon Sync"}
+              {isSignUp ? "Join Ride2Green today" : "Sign in to Ride2Green"}
             </Text>
           </Box>
 

@@ -471,7 +471,7 @@
               fw={700}
               style={{ letterSpacing: '0.5px' }}
             >
-              GreenRide Carpooling
+              Ride2Green Carpooling
             </Title>
 
             <Grid gutter="xl">

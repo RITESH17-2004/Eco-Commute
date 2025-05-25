@@ -401,7 +401,7 @@ export function CommunityPage() {
                   mb={{ base: 'lg', sm: 'xl' }}
                   style={titleStyles}
                 >
-                  EcoConnect Community
+                  Ride2Green Community
                 </Title>
                 <Text ta="center" mb="xl" c="dimmed" size="lg">
                   Share your sustainable journey and connect with like-minded individuals

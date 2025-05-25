@@ -332,7 +332,7 @@ export function Requests() {
                 marginBottom: rem(12)
               }}
             >
-              Join Requests
+              Incoming Requests
             </Title>
             <Text c="dimmed" size="md" ta="center">
               Manage requests from users who want to join your trips
