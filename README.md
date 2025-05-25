@@ -3,14 +3,14 @@
 </center>
 
 ## Table of Contents
-- [💡 Problem Statement & Solution](#problem-statement--solution)
-- [📽️ Visit Us](#visit-us)
-- [🚀 Getting Started](#getting-started)
-- [🧰 Resources](#resources)
-- [🖼️ Screenshots](#screenshots)
-- [⚙️ Key Features](#key-features)
-- [🌟 Additional Features](#additional-features)
-- [🖥️ Architecture & Tech Stack](#architecture--tech-stack)
+- [💡 Problem Statement & Solution](#-problem-statement--solution)
+- [📽️ Visit Us](#-visit-us)
+- [🚀 Getting Started](#-getting-started)
+- [🧰 Resources](#-resources)
+- [🖼️ Screenshots](#-screenshots)
+- [⚙️ Key Features](#-key-features)
+- [🌟 Additional Features](#-additional-features)
+- [🖥️ Architecture & Tech Stack](#-architecture--tech-stack)
 
 ---
 
