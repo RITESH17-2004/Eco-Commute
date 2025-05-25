@@ -36,9 +36,9 @@ function App() {
               <Route path="/community" element={<CommunityPage />} />
               <Route path="/pooling" element={<PoolingPage />} />
               <Route path="/Auth" element={<AuthPage />} />
-              <Route path="/Profile Page" element={<ProfilePage />}/>
-              <Route path="/Request Page" element={<Requests />}/>
-              <Route path="/Send Request Page" element={<SentRequests />}/>
+              <Route path="/ProfilePage" element={<ProfilePage />}/>
+              <Route path="/RequestPage" element={<Requests />}/>
+              <Route path="/SendRequestPage" element={<SentRequests />}/>
             </Routes>
           </main>
           <Footer />

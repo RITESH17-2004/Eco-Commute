@@ -75,9 +75,9 @@ export function Header() {
       { link: '/community', label: 'Community' },
       { link: '/pooling', label: 'Carpooling' },
       { link: '/CalculatorPage', label: 'Carbon Calculator' },
-      { link: '/Request Page', label: 'Incoming Requests' },
-      { link: '/Send Request Page', label: 'My Requests' },
-      { link: '/Profile Page', label: 'Profile' }
+      { link: '/RequestPage', label: 'Incoming Requests' },
+      { link: '/SendRequestPage', label: 'My Requests' },
+      { link: '/ProfilePage', label: 'Profile' }
     ] : []),
   ];
 

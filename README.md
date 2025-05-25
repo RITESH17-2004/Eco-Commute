@@ -3,14 +3,14 @@
 </center>
 
 ## Table of Contents
-- [💡 Problem Statement & Solution](#problem-statement--solution)
-- [📽️ Visit Us](#visit-us)
-- [🚀 Getting Started](#getting-started)
-- [🧰 Resources](#resources)
-- [🖼️ Screenshots](#screenshots)
-- [⚙️ Key Features](#key-features)
-- [🌟 Additional Features](#additional-features)
-- [🖥️ Architecture & Tech Stack](#architecture--tech-stack)
+- [💡 Problem Statement & Solution](#-problem-statement--solution)
+- [📽️ Visit Us](#-visit-us)
+- [🚀 Getting Started](#-getting-started)
+- [🧰 Resources](#-resources)
+- [🖼️ Screenshots](#-screenshots)
+- [⚙️ Key Features](#-key-features)
+- [🌟 Additional Features](#-additional-features)
+- [🖥️ Architecture & Tech Stack](#-architecture--tech-stack)
 
 ---
 
@@ -57,12 +57,13 @@ Note : This project requires a Firebase API key; please **create your own API ke
 <img src = "src\assets\communitypage.png">
 <img src = "src\assets\carpoolingpage.png">
 <img src = "src/assets/carboncalculatorpage.png">
-<img src = "src\assets\incomingrequeestspage.png">
+<img src = "src\assets\incomingrequestspage.png">
 <img src = "src\assets\myrequestspage.png">
 <img src = "src\assets\profilepage.png">
 </pre>
 
 ---
+
 ## ⚙️ Key Features
 
 1. 🧮 **Carbon Calculator**
