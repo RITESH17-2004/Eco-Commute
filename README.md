@@ -51,16 +51,14 @@ Note : This project requires a Firebase API key; please **create your own API ke
 
 ## 🖼️ Screenshots
 
-<pre>
-<img src = "src\assets\homepage.png">
-<img src = "src\assets\loginpage.png">
-<img src = "src\assets\communitypage.png">
-<img src = "src\assets\carpoolingpage.png">
-<img src = "src/assets/carboncalculatorpage.png">
-<img src = "src\assets\incomingrequeestspage.png">
-<img src = "src\assets\myrequestspage.png">
-<img src = "src\assets\profilepage.png">
-</pre>
+![Homepage](src/assets/homepage.png)
+![Login](src/assets/loginpage.png)
+![Community](src/assets/communitypage.png)
+![CarPooling](src/assets/carpoolingpage.png)
+![CarbonCalculator](src/assets/carboncalculatorpage.png)
+![IncomingRequests](src/assets/incomingrequeestspage.png)
+![MyRequests](src/assets/myrequestspage.png)
+![Profile](src/assets/profilepage.png)
 
 ---
 ## ⚙️ Key Features
