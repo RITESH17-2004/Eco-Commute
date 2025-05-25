@@ -35,7 +35,7 @@ Users can calculate their transportation emissions, share eco-friendly lifestyle
 
 ## 📽️ Visit Us
 
-### 🔗 [Live App - Vercel](https://eco-commute-seven.vercel.app/)
+### 🔗 [Live App - Vercel](https://ride2-green.vercel.app)
 
 ---
 
